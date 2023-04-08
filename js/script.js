@@ -13,8 +13,15 @@
 // console.log (result);
 // 
 // 3 task
+// let result = '';
+// for (let i = 1; i<=10; i++) {
+//     result += `7 * ${i} = ${7*i}\n`
+//   }
+// console.log (result);
+//
+// 4 task
 let result = '';
-for (let i = 1; i<=10; i++) {
-    result += `7 * ${i} = ${7*i}\n`
+for (let i = 1; i<=15; i++) {
+    result = (result++) + i 
   }
 console.log (result);
