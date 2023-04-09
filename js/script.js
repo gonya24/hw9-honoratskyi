@@ -27,17 +27,21 @@
 // console.log (result);
 // 
 // 5 task 
-let result = 0;
-for (let i = 15; i<=17; i++) {
- if (result==0) {
-    result++;
-    
- }
-    result *= i;  //15*15 =225
-}
-// let i = 15;
-// while (i<=17) {
-//     result +=1*i-1;
-//     i++;
+// let result = 0;
+// for (let i = 15; i<=35; i++) {
+//  if (result==0) {
+//     result++;   
+//  }
+//     result *= i;
 // }
+// console.log (result);
+// 
+// 6 task 
+let result = 0;
+for (let i=1;i<=500;i++) {
+    result = result + (+i);
+    if (i==500) {
+        result/=i;
+    }
+}
 console.log (result);
