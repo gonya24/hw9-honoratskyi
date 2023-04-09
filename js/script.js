@@ -20,8 +20,24 @@
 // console.log (result);
 //
 // 4 task
-let result = '';
-for (let i = 1; i<=15; i++) {
-    result = (result++) + i 
-  }
+// let result = '';
+// for (let i = 1; i<=15; i++) {
+//     result = (result++) + i 
+//   }
+// console.log (result);
+// 
+// 5 task 
+let result = 0;
+for (let i = 15; i<=17; i++) {
+ if (result==0) {
+    result++;
+    
+ }
+    result *= i;  //15*15 =225
+}
+// let i = 15;
+// while (i<=17) {
+//     result +=1*i-1;
+//     i++;
+// }
 console.log (result);
