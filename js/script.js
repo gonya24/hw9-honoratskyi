@@ -58,11 +58,20 @@
 // console.log(result);
 // 
 // 8 task
+// let result = '';
+// for (let i = 100; i<=200; i++) {
+//     if (i%3==0) {
+//         result += `${i} `    
+//     }
+//     }
+// console.log (result);
+// 
+// 9 task
+let natNum=(prompt('Enter natural number'))
 let result = '';
-for (let i = 100; i<=200; i++) {
-    if (i%3==0) {
-        result += `${i} `    
+for (let i =1; i<=natNum; i++) {
+    if (natNum%i==0) {
+        result +=`${i} `
     }
-    }
+}
 console.log (result);
-
