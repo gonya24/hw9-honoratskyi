@@ -47,12 +47,22 @@
 // console.log (result);
 // 
 // 7task
-let result = 0;
-let i=30;
-while (i<=80) {
-    if (i%2==0) {
-        result+=(+i)
+// let result = 0;
+// let i=30;
+// while (i<=80) {
+//     if (i%2==0) {
+//         result+=(+i)
+//     }
+//     i++
+// }
+// console.log(result);
+// 
+// 8 task
+let result = '';
+for (let i = 100; i<=200; i++) {
+    if (i%3==0) {
+        result += `${i} `    
     }
-    i++
-}
-console.log(result);
+    }
+console.log (result);
+
