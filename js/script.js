@@ -77,12 +77,23 @@
 // console.log (result);
 // 
 // 10 task
+// let natNum=(prompt('Enter natural number'))
+// let result = 0;
+// for (let i =1; i<=natNum; i++) {
+// if (natNum%i==0 && i%2==0 || natNum/i==natNum ) {
+//             result++;
+//    }    
+// }
+
+// console.log (result);
+// 
+// 11 task
 let natNum=(prompt('Enter natural number'))
 let result = 0;
 for (let i =1; i<=natNum; i++) {
-if (natNum%i==0 && i%2==0 || natNum/i==natNum ) {
-            result++;
-   }    
-}
+    if (natNum%i==0 && i%2==0 || natNum/i==natNum ) {
+        result += i;
+    }    
+ }
 
 console.log (result);
