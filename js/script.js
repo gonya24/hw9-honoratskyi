@@ -37,12 +37,22 @@
 // console.log (result);
 // 
 // 6 task 
+// let result = 0;
+// for (let i=1;i<=500;i++) {
+//     result += (+i);
+//     if (i==500) {
+//         result/=i;
+//     }
+// }
+// console.log (result);
+// 
+// 7task
 let result = 0;
-for (let i=1;i<=500;i++) {
-    result = result + (+i);
-    if (i==500) {
-        result/=i;
+let i=30;
+while (i<=80) {
+    if (i%2==0) {
+        result+=(+i)
     }
+    i++
 }
-console.log (result);
-
+console.log(result);
