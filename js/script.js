@@ -88,12 +88,20 @@
 // console.log (result);
 // 
 // 11 task
-let natNum=(prompt('Enter natural number'))
-let result = 0;
-for (let i =1; i<=natNum; i++) {
-    if (natNum%i==0 && i%2==0 || natNum/i==natNum ) {
-        result += i;
-    }    
- }
+// let natNum=(prompt('Enter natural number'))
+// let result = 0;
+// for (let i =1; i<=natNum; i++) {
+//     if (natNum%i==0 && i%2==0 || natNum/i==natNum ) {
+//         result += i;
+//     }    
+//  }
+// console.log (result);
+// 
+// 12 task
 
-console.log (result);
+for (let x1 = 1; x1<=10; x1++){
+    for(let x2=1;x2<=10; x2++){
+        console.log(`${x1}*${x2}=${x1*x2}`);
+    }
+    console.log('\n');
+}
